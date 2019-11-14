@@ -1,7 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
+    <title>TweetApp</title>
+    <%= csrf_meta_tags %>
+
+
 <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <meta http-equiv="content-type" charset="utf-8">
 <title>ヘッダーとフッターのサンプルページ</title>
@@ -103,7 +106,7 @@ li {
   color: #ffffff;/*文字・アイコン色*/
   border-radius: 27px;/*角丸に*/
   display: inline-block;
-  height: 50px;/*高さ*/
+  height: 54px;/*高さ*/
   width: 190px;/*幅*/
   text-align: center;/*中身を中央寄せ*/
   font-size: 19px;/*文字のサイズ*/
@@ -135,7 +138,7 @@ li {
   color: #1da1f3;/*文字・アイコン色*/
   border-radius: 27px;/*角丸に*/
   display: inline-block;
-  height: 50px;/*高さ*/
+  height: 54px;/*高さ*/
   width: 190px;/*幅*/
   text-align: center;/*中身を中央寄せ*/
   font-size: 19px;/*文字のサイズ*/
@@ -180,7 +183,7 @@ li {
 <!--cwrapper01-->
 <div class="cwrapper01">
 <div class="container">
-<p><i class="fab fa-twitter fa-5x twitter"></i>
+<p><i class="fab fa-twitter fa-4x twitter"></i>
 <center><h1>今、起きている事をつぶやこう！</h1></center>
 </p>
 </div><!--container-->
@@ -201,13 +204,13 @@ li {
 <div class="footer">
 <center>
 <span class="s1">
-  <a href="#" class="btn-social-long-twitter1">
-    <i class="fa fa-twitter"></i> <span>新規登録</span>
+  <a href="/signup" class="btn-social-long-twitter1">
+    <!--<i class="fa fa-twitter"></i>--> <span>新規登録</span>
   </a>
 </span>
 <span class="s2">
-  <a href="#" class="btn-social-long-twitter">
-    <i class="fa fa-twitter"></i> <span>ログイン</span>
+  <a href="/login" class="btn-social-long-twitter">
+    <!--<i class="fa fa-twitter"></i>--> <span>ログイン</span>
   </a>
 </span>
 </center>
@@ -222,5 +225,5 @@ li {
 </center>
 </div><!--footer-->
 </div><!--fwrapper-->
-
 </body>
+<html>
