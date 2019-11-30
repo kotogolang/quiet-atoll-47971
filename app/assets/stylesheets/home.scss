@@ -238,3 +238,163 @@ header {
   border-radius: 0 0 2px 2px;
   font-size: 14px;
 }
+
+/* tweet_app トップページ 2019_11_30 ================================ */
+
+body {
+   margin: 0px;
+   -webkit-text-size-adjust: 100%;
+   font-family: "メイリオ", meiryo, sans-serif;
+   display: flex;/*フッター固定１*/
+   flex-flow: column;/*フッター固定２*/
+   min-height: 100vh;/*フッター固定３*/
+}
+
+.hwrapper {
+   width: 100%;
+   background-color: #ffffff;
+   padding-top: 50px;
+}
+
+.header {
+  margin: auto;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.cwrapper01 {
+   padding-bottom: 20px;
+   width: 100%;
+   background-color: #ffffff;
+}
+
+.cwrapper02 {
+   width: 100%;
+   background-color: #00acee;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  /*background-color: pink;*/
+  padding: 10px;
+  font-size: 23px;
+
+}
+
+.fwrapper {
+   width: 100%;
+   background-color: #ffffff;
+   flex: 1;/*フッター固定４*/
+   padding-top: 100px;
+}
+
+.footer {
+  margin: auto;
+  max-width: 800px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+p.footer {
+  margin-top: 0px;
+}
+
+.twitter {
+  color: #00acee;
+  margin: 0px 0px 0px 0px;
+}
+
+.comment01 {
+  color: #ffffff;
+}
+
+
+.container ul {
+
+  padding-top: 10px;
+  padding-bottom: 10px
+  /*背景色などのCSSは省略*/
+}
+
+.container li {
+
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px
+
+
+}
+
+.s1 {
+  margin-right: 15px;
+
+}
+
+.s2 {
+  margin-left: 15px;
+}
+
+
+/*ヘッダーボタン１ここから*/
+.btn-social-long-twitter1 {
+  color: #ffffff;/*文字・アイコン色*/
+  border-radius: 27px;/*角丸に*/
+  display: inline-block;
+  height: 54px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 19px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+  border: 3px solid #1da1f3;
+}
+
+.btn-social-long-twitter1 .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+
+.btn-social-long-twitter1 span {
+  display:inline-block;
+  transition: .5s;
+}
+
+.btn-social-long-twitter1:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+/*ヘッダー内ボタン１ここまで*/
+
+/*ヘッダーボタン２ここから*/
+.btn-social-long-twitter2 {
+  color: #1da1f3;/*文字・アイコン色*/
+  border-radius: 27px;/*角丸に*/
+  display: inline-block;
+  height: 54px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 19px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: #ffffff;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+  border: 3px solid #1da1f3;
+}
+
+.btn-social-long-twitter2 .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+
+.btn-social-long-twitter2 span {
+  display:inline-block;
+  transition: .5s;
+}
+
+.btn-social-long-twitter2:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+/*ヘッダー内ボタン２ここまで*/
